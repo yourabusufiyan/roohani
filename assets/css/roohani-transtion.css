@@ -1,0 +1,334 @@
+/*
+*   This file has all animation and transtion styles
+*/
+
+
+.icons-container {
+  background-color: #232323;
+  padding: 0px 10px 0;
+}
+.icons-container .icon-text {
+  width: 50px;
+  height: 35px;
+  color: #fff;
+  vertical-align:  text-bottom;
+  font-size: 34px;
+  ver;
+  padding-left: 8px;
+}
+#nav-icon {
+  width: 50px;
+  height: 35px;
+  position: relative;
+  transform: rotate(0deg);
+  transition: .5s ease-in-out;
+  cursor: pointer;
+  display: inline-block;
+}
+
+#nav-icon span {
+  display: block;
+  position: absolute;
+  height: 5px;
+  width: 50%;
+  background: #fff;
+  opacity: 1;
+  transform: rotate(0deg);
+  transition: .25s ease-in-out;
+}
+
+#nav-icon span:nth-child(even) {
+  left: 50%;
+  border-radius: 0 9px 9px 0;
+}
+
+#nav-icon span:nth-child(odd) {
+  left:0px;
+  border-radius: 9px 0 0 9px;
+}
+
+#nav-icon span:nth-child(1), #nav-icon span:nth-child(2) {
+  top: 0px;
+}
+
+#nav-icon span:nth-child(3), #nav-icon span:nth-child(4) {
+  top: 11px;
+}
+
+#nav-icon span:nth-child(5), #nav-icon span:nth-child(6) {
+  top: 22px;
+}
+
+#nav-icon.open span:nth-child(1),#nav-icon.open span:nth-child(6) {
+  transform: rotate(45deg);
+}
+
+#nav-icon.open span:nth-child(2), #nav-icon.open span:nth-child(5) {
+
+  transform: rotate(-45deg);
+}
+
+/*  Opened Css */
+#nav-icon.open span:nth-child(1) {
+  left: 5px;
+  top: 7px;
+}
+
+#nav-icon.open span:nth-child(2) {
+  left: calc(50% - 5px);
+  top: 7px;
+}
+
+#nav-icon.open span:nth-child(3) {
+  left: -50%;
+  opacity: 0;
+}
+
+#nav-icon.open span:nth-child(4) {
+  left: 100%;
+  opacity: 0;
+}
+
+#nav-icon.open span:nth-child(5) {
+  left: 5px;
+  top: 20.5px;
+}
+
+#nav-icon.open span:nth-child(6) {
+  left: calc(50% - 5px);
+  top: 20.5px;
+} */
+
+
+
+
+.highlight {
+	display: inline-block;
+	color: #333;
+	transition: color 250ms, text-shadow 250ms;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+	position: relative;
+	z-index: 0;
+	padding: 0 10px 5px;
+}
+.highlight::after {
+	position: absolute;
+	z-index: -1;
+	bottom: 0px;
+	left: 50%;
+	transform: translateX(-50%);
+	content: '';
+	width: 110%;
+	height: 3px;
+	background-color: #333;
+	transition: all 250ms;
+}
+.highlight:hover {
+  color: white;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 1);
+}
+.highlight:hover::after {
+	height: 100%;
+	width: 110%;
+}
+.post-excerpt p, .textwidget, .rssSummary, .textwidget p {
+  opacity: 0.2;
+}
+
+.bgani {
+  text-transformation: uppercase;
+  background-image: linear-gradient(to left,
+    transparent,
+    transparent 50%,
+    #00c6ff 50%,
+    #00c6ff);
+  background-position: 100% 0;
+  background-size: 200% 100%;
+  transition: all .25s ease-in;
+}
+.bgani:hover{
+  background-position: 0 0;
+}
+.bgani-red {
+  text-transformation: uppercase;
+  background-image: linear-gradient(to left,
+    transparent,
+    transparent 50%,
+    red 50%,
+    red);
+  background-position: 100% 0;
+  background-size: 200% 100%;
+  transition: all .25s ease-in;
+}
+.bgani-red:hover{
+  background-position: 0 0;
+  color: white;
+}
+.bgani-red:hover a{
+  color: white;
+}
+/* Widgets */
+.widget_categories ul li, .widget_archive ul li {
+  padding: 5px 10px;
+  text-transformation: uppercase;
+  background-image: linear-gradient(to left,
+    transparent,
+    transparent 50%,
+    #00c6ff 50%,
+    #00c6ff);
+  background-position: 100% 0;
+  background-size: 200% 100%;
+  transition: all .25s ease-in;
+}
+.widget_categories ul li .children {
+  padding: 0;
+}
+.widget_categories ul li:hover .children {
+  background-color: white;
+  color: #333;
+}
+.widget_categories ul li:hover .children a {
+  color: #333;
+}
+.widget_categories ul li .children li:hover a {
+  color: white
+}
+
+.widget_categories ul li:hover, .widget_archive ul li:hover{
+  background-position: 0 0;
+  color: white;
+}
+.widget_categories ul li:hover a, .widget_archive ul li:hover a{
+  background-position: 0 0;
+  color: white;
+}
+.widget_categories ul li .children li:hover .children li {
+  background-color: white;
+  color: #333;
+}
+.widget_categories ul li .children li:hover .children li a {
+  color: #333;
+}
+
+
+/*  Post Excerpt */
+
+.post-header a {
+  position: relative;
+}
+.post-header a:before {
+ content: '';
+ height: 1.5px;
+ background-color: red;
+ width: 10px;
+ position: absolute;
+ opacity: 0.2;
+ bottom: 1px;
+ border-radius: 10px;
+ transition: width 1s cubic-bezier(0.68, -0.55, 0.27, 1.55), opacity 0.4s ease-in;
+
+}
+.post-header a:hover:before {
+ width: 100%;
+ opacity: 1;
+ border-radius: 10px;
+}
+
+
+/* Menu */
+
+#desk .navigations a {
+
+  background-color: #333333;
+  color: #ffffff;
+  background: linear-gradient(to bottom, transparent,
+  transparent 50%,
+  #00c6ff 50%,
+  #00c6ff););
+  background-position: 0% 0% ;
+  background-size: 100% 200%;
+  transition: all 0.5s;
+}
+#desk .navigations a:hover {
+  background-position: 0% 100% ;
+}
+
+#desk .menu-item-has-children .sub-menu a {
+  color: #ffffff;
+  background: linear-gradient(to top, transparent,
+  transparent 50%,
+  #00c6ff 50%,
+  #00c6ff););
+  background-position: 0% 100% ;
+  background-size: 100% 200%;
+  transition: all 0.5s;
+}
+#desk .menu-item-has-children .sub-menu a:hover {
+  background-position: 0% 0% ;
+}
+
+#desk .sub-menu .menu-item-has-children .sub-menu a {
+  background-color: #c5272700;
+  color: #ffffff;
+  background: linear-gradient(to left, transparent,
+  transparent 50%,
+  #00c6ff 50%,
+  #00c6ff););
+  background-position: 100% 0% ;
+  background-size: 200% 100%;
+  transition: all 0.5s;
+}
+
+#desk .sub-menu .menu-item-has-children .sub-menu a:hover {
+  background-position: 0% 0% ;
+}
+
+/*  wp_manu_cl Fix bug   */
+
+
+
+header > .navigations ul {
+    display: block;
+    text-align: center;
+    background-color: #333;
+}
+
+.nav-bar ul {
+  margin: 0;
+  padding:0;
+  list-style: none;
+}
+header > .navigations ul li {
+    vertical-align: top;
+    display: inline-block;
+ }
+header > .navigations a {
+  display:block;
+  color:#fff;
+  text-decoration: none;
+  padding: 14px 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  position: relative;
+}
+header > .navigations a:hover {
+ background-color: red;
+  color: white;
+}
+header > .navigations .children {
+  display: none;
+  position: relative;
+}
+header > .navigations ul {
+  position: inherit;
+  white-space: nowrap;
+  z-index: 1;
+  left: inherit;
+
+}
+header > .navigations {
+  width: 100%;
+  margin: auto;
+}

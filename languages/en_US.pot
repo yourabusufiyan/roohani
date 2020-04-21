@@ -1,0 +1,655 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2019-03-20 23:44+0530\n"
+"PO-Revision-Date: 2019-03-20 23:44+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x;esc_attr_e;esc_attr__;esc_html__;esc_html_e;"
+"_e;_ex;_n;_nx;esc_attr_x;esc_html_x;number_format_i18n\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:16
+msgid "404"
+msgstr ""
+
+#: 404.php:17
+msgid "Oops, the page you're looking for does not exist."
+msgstr ""
+
+#: archive.php:67 author.php:108 index.php:99 search.php:109
+#: templates/content.php:20
+msgid "This Post has not Title"
+msgstr ""
+
+#: archive.php:76 author.php:117 index.php:105 search.php:116
+msgid "Edit"
+msgstr ""
+
+#: archive.php:88 author.php:131 search.php:132 templates/content-404.php:1
+msgid "Oppps!!! 404"
+msgstr ""
+
+#: archive.php:89 author.php:132 index.php:122 search.php:133
+msgid "Sorry! Content doesn't exits"
+msgstr ""
+
+#: archive.php:94 author.php:137 search.php:137
+msgid "<i class=\"fas fa-less-than\"></i>"
+msgstr ""
+
+#: archive.php:95 author.php:138 search.php:138
+msgid "<i class=\"fas fa-greater-than\"></i>"
+msgstr ""
+
+#: attachment.php:23
+msgid "Your browser does not support HTML5 video."
+msgstr ""
+
+#: attachment.php:28
+msgid "Media Title"
+msgstr ""
+
+#: attachment.php:31
+msgid "Description"
+msgstr ""
+
+#: attachment.php:32
+msgid "Empty"
+msgstr ""
+
+#: attachment.php:34
+msgid "ID"
+msgstr ""
+
+#: attachment.php:37
+msgid "Upload by"
+msgstr ""
+
+#: attachment.php:40
+msgid "Type"
+msgstr ""
+
+#: attachment.php:43
+msgid "Comments"
+msgstr ""
+
+#: attachment.php:45
+msgid "URL"
+msgstr ""
+
+#: author.php:34
+msgid "User Name Doesn't exit"
+msgstr ""
+
+#: author.php:44
+msgid "User Bio Doesn't exit"
+msgstr ""
+
+#: author.php:55
+msgid "User E-mail Doesn't exit"
+msgstr ""
+
+#: author.php:64
+msgid "User Website Doesn't exit"
+msgstr ""
+
+#: comments.php:24
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:28
+msgid "%1 Comments"
+msgstr ""
+
+#: comments.php:51
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:52
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:53
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:59
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:41
+msgid "Copyright"
+msgstr ""
+
+#: functions.php:93
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:94
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:104
+msgid "Main Sidebar"
+msgstr ""
+
+#: functions.php:106
+msgid "Add widgets for main sidebar here"
+msgstr ""
+
+#: functions.php:114
+msgid "Footer Widget 1"
+msgstr ""
+
+#: functions.php:115
+msgid "Add widget for Widget Footer 1"
+msgstr ""
+
+#: functions.php:124
+msgid "Footer Widget 2"
+msgstr ""
+
+#: functions.php:125
+msgid "Add widget for Widget Footer 2"
+msgstr ""
+
+#: functions.php:134
+msgid "Footer Widget 3"
+msgstr ""
+
+#: functions.php:135
+msgid "Add widget for Widget Footer 3"
+msgstr ""
+
+#: functions.php:144
+msgid "Footer Widget 4"
+msgstr ""
+
+#: functions.php:145
+msgid "Add widget for Widget Footer 4"
+msgstr ""
+
+#: functions.php:180
+#, php-format
+msgid " <span class=\"screen-reader-text\"> \"%1$s\" </span>"
+msgstr ""
+
+#: header.php:73
+msgid "Welcome to our blog!"
+msgstr ""
+
+#: header.php:126
+msgid "Menu"
+msgstr ""
+
+#: inc/custo/roohani-body.php:12
+msgid "Body"
+msgstr ""
+
+#: inc/custo/roohani-body.php:26
+msgid "Full Width Website"
+msgstr ""
+
+#: inc/custo/roohani-body.php:41 inc/custo/roohani-call-action.php:83
+msgid "Background Color"
+msgstr ""
+
+#: inc/custo/roohani-body.php:56
+msgid "Body Color"
+msgstr ""
+
+#: inc/custo/roohani-body.php:73
+msgid "Anchor Link Color"
+msgstr ""
+
+#: inc/custo/roohani-body.php:89
+msgid "Anchor Link Hover Color"
+msgstr ""
+
+#: inc/custo/roohani-body.php:106
+msgid "Menu Paragraph Color"
+msgstr ""
+
+#: inc/custo/roohani-body.php:122
+msgid "Upload a Loading Image"
+msgstr ""
+
+#: inc/custo/roohani-call-action.php:20
+msgid "Call to Action "
+msgstr ""
+
+#: inc/custo/roohani-call-action.php:34
+msgid "Show CTA"
+msgstr ""
+
+#: inc/custo/roohani-call-action.php:35
+msgid "Uncheched it. If, You don't show CTA."
+msgstr ""
+
+#: inc/custo/roohani-call-action.php:53
+msgid "Call to Action Url/Link"
+msgstr ""
+
+#: inc/custo/roohani-call-action.php:68
+msgid "Text Padding"
+msgstr ""
+
+#: inc/custo/roohani-call-action.php:69 inc/custo/roohani-main-menu.php:55
+#: inc/custo/roohani-main-menu.php:104 inc/custo/roohani-top-bar.php:73
+#: inc/custo/roohani-top-bar.php:88 inc/custo/roohani-widget-options.php:31
+msgid "Clock wise : Top right Bottum Left"
+msgstr ""
+
+#: inc/custo/roohani-call-action.php:100
+msgid "CTA Title"
+msgstr ""
+
+#: inc/custo/roohani-call-action.php:115
+msgid "CTA Title Font Size"
+msgstr ""
+
+#: inc/custo/roohani-call-action.php:131
+msgid "CTA Title Color "
+msgstr ""
+
+#: inc/custo/roohani-call-action.php:148
+msgid "CTA Desciption"
+msgstr ""
+
+#: inc/custo/roohani-call-action.php:163
+msgid "CTA Desciption Font Size"
+msgstr ""
+
+#: inc/custo/roohani-call-action.php:179
+msgid "CTA Description Color "
+msgstr ""
+
+#: inc/custo/roohani-call-action.php:197
+msgid "CTA Button Text"
+msgstr ""
+
+#: inc/custo/roohani-call-action.php:212
+msgid "CTA Font Button Size"
+msgstr ""
+
+#: inc/custo/roohani-call-action.php:227 inc/custo/roohani-call-action.php:242
+msgid "CTA Bottun Font Color "
+msgstr ""
+
+#: inc/custo/roohani-copyright.php:14
+msgid "Footer Options"
+msgstr ""
+
+#: inc/custo/roohani-copyright.php:15
+msgid "You can customize footer from here"
+msgstr ""
+
+#: inc/custo/roohani-copyright.php:28
+msgid "Copyright Text"
+msgstr ""
+
+#: inc/custo/roohani-copyright.php:45
+msgid "Font size"
+msgstr ""
+
+#: inc/custo/roohani-copyright.php:75
+msgid "Footer Background Color"
+msgstr ""
+
+#: inc/custo/roohani-copyright.php:83
+msgid "Footer Text Color"
+msgstr ""
+
+#: inc/custo/roohani-copyright.php:91
+msgid "Footer Link Color"
+msgstr ""
+
+#: inc/custo/roohani-copyright.php:99
+msgid "Footer Separator Color"
+msgstr ""
+
+#: inc/custo/roohani-copyright.php:100
+msgid " It mightn't changing live. "
+msgstr ""
+
+#: inc/custo/roohani-copyright.php:114
+msgid "Footer Hover Color "
+msgstr ""
+
+#: inc/custo/roohani-copyright.php:115
+msgid " It mightn't changing on mouseout. "
+msgstr ""
+
+#: inc/custo/roohani-main-menu.php:13
+msgid "Main Menu "
+msgstr ""
+
+#: inc/custo/roohani-main-menu.php:14
+msgid "Main Menu Customization Area"
+msgstr ""
+
+#: inc/custo/roohani-main-menu.php:35
+msgid "Menu Align"
+msgstr ""
+
+#: inc/custo/roohani-main-menu.php:39
+msgid "Left"
+msgstr ""
+
+#: inc/custo/roohani-main-menu.php:40
+msgid "Center"
+msgstr ""
+
+#: inc/custo/roohani-main-menu.php:41
+msgid "Right"
+msgstr ""
+
+#: inc/custo/roohani-main-menu.php:54
+msgid "Container Padding"
+msgstr ""
+
+#: inc/custo/roohani-main-menu.php:70
+msgid "Container background Color "
+msgstr ""
+
+#: inc/custo/roohani-main-menu.php:86
+msgid "Menu Text Size"
+msgstr ""
+
+#: inc/custo/roohani-main-menu.php:103
+msgid "Menu Padding"
+msgstr ""
+
+#: inc/custo/roohani-main-menu.php:120
+msgid "Menu Text Color "
+msgstr ""
+
+#: inc/custo/roohani-main-menu.php:137
+msgid "Menu Background Color "
+msgstr ""
+
+#: inc/custo/roohani-main-menu.php:156 inc/custo/roohani-main-menu.php:172
+msgid "Hover Text Color "
+msgstr ""
+
+#: inc/custo/roohani-scrol-indic.php:14
+msgid "Scroll Indicator"
+msgstr ""
+
+#: inc/custo/roohani-scrol-indic.php:15
+msgid "Customize Scroll Indicator. e.g Background Color, Color etc"
+msgstr ""
+
+#: inc/custo/roohani-scrol-indic.php:30
+msgid "Indicator Display"
+msgstr ""
+
+#: inc/custo/roohani-scrol-indic.php:43
+msgid "Indicator Height"
+msgstr ""
+
+#: inc/custo/roohani-scrol-indic.php:62
+msgid "Indicator Color"
+msgstr ""
+
+#: inc/custo/roohani-scrol-indic.php:70
+msgid "Indicator Background Color"
+msgstr ""
+
+#: inc/custo/roohani-top-bar.php:13
+msgid "Top bar "
+msgstr ""
+
+#: inc/custo/roohani-top-bar.php:14
+msgid "Top bar Customization Area"
+msgstr ""
+
+#: inc/custo/roohani-top-bar.php:30
+msgid "Show Top Bar"
+msgstr ""
+
+#: inc/custo/roohani-top-bar.php:53
+msgid "Right Text"
+msgstr ""
+
+#: inc/custo/roohani-top-bar.php:72
+msgid "Top bar Padding"
+msgstr ""
+
+#: inc/custo/roohani-top-bar.php:87
+msgid "Top bar Margin"
+msgstr ""
+
+#: inc/custo/roohani-top-bar.php:102
+msgid "Text Size"
+msgstr ""
+
+#: inc/custo/roohani-top-bar.php:118
+msgid "Text Color "
+msgstr ""
+
+#: inc/custo/roohani-top-bar.php:134
+msgid "Background Color "
+msgstr ""
+
+#: inc/custo/roohani-top-bar.php:152
+msgid "Social Icon Size"
+msgstr ""
+
+#: inc/custo/roohani-top-bar.php:168
+msgid "Social Icon Color "
+msgstr ""
+
+#: inc/custo/roohani-top-bar.php:186
+msgid "Facebook Url/Link"
+msgstr ""
+
+#: inc/custo/roohani-top-bar.php:202
+msgid "Twitter Url/Link"
+msgstr ""
+
+#: inc/custo/roohani-top-bar.php:218
+msgid "YouTube Url/Link"
+msgstr ""
+
+#: inc/custo/roohani-top-bar.php:234
+msgid "Instagram Url/Link"
+msgstr ""
+
+#: inc/custo/roohani-top-bar.php:250
+msgid "Google+ Url/Link"
+msgstr ""
+
+#: inc/custo/roohani-top-bar.php:266
+msgid "Pinterest Url/Link"
+msgstr ""
+
+#: inc/custo/roohani-widget-options.php:13
+msgid " Widget Oprions"
+msgstr ""
+
+#: inc/custo/roohani-widget-options.php:14
+msgid " Widget Customization Area"
+msgstr ""
+
+#: inc/custo/roohani-widget-options.php:30
+msgid "Widget Padding "
+msgstr ""
+
+#: inc/custo/roohani-widget-options.php:47
+msgid "Widget Title Color "
+msgstr ""
+
+#: inc/custo/roohani-widget-options.php:63
+msgid "Widget Title Background Color "
+msgstr ""
+
+#: inc/custo/roohani-widget-options.php:79
+msgid "Widget Title Font Size "
+msgstr ""
+
+#: inc/custo/roohani-widget-options.php:98
+msgid "Font Color "
+msgstr ""
+
+#: inc/custo/roohani-widget-options.php:112
+msgid "Font Size "
+msgstr ""
+
+#: inc/custo/theme_options.php:12
+msgid "Theme Setting"
+msgstr ""
+
+#: inc/custo/theme_options.php:13
+msgid "This Panel is for coloring"
+msgstr ""
+
+#: inc/post-conditions.php:11 index.php:42 search.php:52 single.php:26
+msgid "Status"
+msgstr ""
+
+#: inc/post-conditions.php:15 index.php:46 search.php:56 single.php:30
+msgid "Quote"
+msgstr ""
+
+#: inc/post-conditions.php:19 index.php:50 search.php:60 single.php:34
+msgid "Gallery"
+msgstr ""
+
+#: inc/post-conditions.php:23 index.php:54 search.php:64 single.php:38
+msgid "Image"
+msgstr ""
+
+#: inc/post-conditions.php:27 index.php:58 search.php:68 single.php:42
+msgid "Video"
+msgstr ""
+
+#: inc/post-conditions.php:31 index.php:62 search.php:72 single.php:46
+msgid "Audio"
+msgstr ""
+
+#: inc/post-conditions.php:35 index.php:66 search.php:76 single.php:50
+msgid "Link"
+msgstr ""
+
+#: inc/post-conditions.php:39 index.php:70 search.php:80 single.php:54
+msgid "Aside"
+msgstr ""
+
+#: inc/post-conditions.php:43 index.php:74 search.php:84 single.php:58
+msgid "Chat"
+msgstr ""
+
+#: inc/post-conditions.php:47 index.php:78 search.php:88 single.php:62
+msgid "Standard"
+msgstr ""
+
+#: inc/post-conditions.php:51 inc/post-conditions.php:54
+#: inc/post-conditions.php:57
+msgid "Post Type is "
+msgstr ""
+
+#: inc/related_posts.php:57
+msgid "Permalink to: "
+msgstr ""
+
+#: inc/related_posts.php:68
+msgid "Sorry! "
+msgstr ""
+
+#: inc/related_posts.php:68
+msgid "No related Post."
+msgstr ""
+
+#: index.php:82 index.php:85 index.php:88 search.php:92 search.php:95
+#: search.php:98 single.php:66 single.php:69 single.php:72
+msgid "Post Type is : "
+msgstr ""
+
+#: index.php:102 search.php:113
+msgid " at "
+msgstr ""
+
+#: index.php:121
+msgid "Oppps!!! 404 "
+msgstr ""
+
+#: search.php:20
+msgid "Search Results for :"
+msgstr ""
+
+#: search.php:122
+msgid "More"
+msgstr ""
+
+#: searchform.php:11
+msgid "what do you want ?"
+msgstr ""
+
+#: searchform.php:12
+msgid "Search"
+msgstr ""
+
+#: sidebar.php:10
+msgid "This is widget area"
+msgstr ""
+
+#: single.php:82
+msgid " Edit This"
+msgstr ""
+
+#: single.php:103
+msgid "Previous post : "
+msgstr ""
+
+#: single.php:106
+msgid "Next post : "
+msgstr ""
+
+#: templates/call-action.php:22
+msgid "A nice attention grabbing header!"
+msgstr ""
+
+#: templates/call-action.php:23
+msgid "A descriptive sentence for the Call To Action (CTA)."
+msgstr ""
+
+#: templates/call-action.php:25
+msgid "Contact Us"
+msgstr ""
+
+#: templates/content-404.php:2
+msgid "Sorry! Content does't exits"
+msgstr ""
+
+#: templates/content.php:23
+msgid "at"
+msgstr ""
+
+#: templates/content.php:24
+msgid "Author"
+msgstr ""
+
+#: templates/content.php:25
+msgid "Category"
+msgstr ""
+
+#: templates/content.php:45
+msgid "Share it"
+msgstr ""
+
+#: templates/content.php:58
+msgid "Tags : "
+msgstr ""
+
+#: templates/content.php:70
+msgid "Oppps! Empty "
+msgstr ""
